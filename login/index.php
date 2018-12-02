@@ -9,22 +9,22 @@ if(isset($_SESSION['session']))
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>sistemas de informacion</title>
+	<title>Informatica</title>
 	<meta charset="utf-8">
 	<link type="texto/css" href="./css/style.css" rel="stylesheet" />
 </head>
 
 <body>
 	
-	<div id="registrar">
-          	<a href="./php/registro.php"</a>Registrar</a>
+	<div id="Ingresa">
+          	<a href="./php/registro.php"</a>Registro</a>
     </div> <!-- fin opcion-->
     
 	<div id="envoltura">
 		<div id="contenedor">
 	
 			<div id="cabecera" >
-				<img src="./css/images/logo.gif">
+				<img src="./css/images/infinio.jpg">
 			</div>
 	
 			<div id="cuerpo">
@@ -33,12 +33,12 @@ if(isset($_SESSION['session']))
 					<!--ejemplo <label for="usuario">Usuario:</label>-->
 					<!--required es nuevo en html5, si el campo está vacío te avisa, pero cuidado, no valida la información-->
 					<p><label >Usuario:</label></p>
-						<input name="usuario" type="texto" id="usuario" placeholder="Ingresa Usuario" autofocus="" required=""></p>
+						<input name="Michael Corleone" type="texto" id="dary" placeholder="Ingresa Usuario" autofocus="" required=""></p>
 					
 					<p><label>Contraseña:</label></p>
-						<input name="contraseña" type="password" id="contrasenia" placeholder="Ingresa contraseña" required=""></p>
+						<input name="contraseña" type="password" id="contraseña" placeholder="Ingresa contraseña" required=""></p>
 					
-					<p id="bot"><input type="submit" id="submit" name="submit" value="Ingresar" class="boton"></p>
+					<p id="bot"><input type="submit" id="submit" name="Roberto" value="Ingresar" class="boton"></p>
 				</form>
 			</div><!--fin cuerpo-->
 	
