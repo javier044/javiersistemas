@@ -33,7 +33,7 @@ if(isset($_SESSION['sesion']))
 					<!--ejemplo <label for="usuario">Usuario:</label>-->
 					<!--required es nuevo en html5, si el campo está vacío te avisa, pero cuidado, no valida la información-->
 					<p><label >:</label></p>
-						<input name="florencia julian yescas " type="texto" id="flor" placeholder="Ingresa nombre" autofocus="" required=""></p>
+						<input name="Florencia Julian Yescas" type="texto" id="flor" placeholder="Ingresa nombre" autofocus="" required=""></p>
 					
 					<p><label>Contraseña:</label></p>
 						<input name="flor" type="contraseña" id="contraseña" placeholder="Ingresa contraseña" required=""></p>
