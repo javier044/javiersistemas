@@ -24,7 +24,7 @@ if(isset($_SESSION['sesion']))
 		<div id="contenedor">
 	
 			<div id="cabecera" >
-				<img src="./css/photos/infinio.jpg">
+				<img src="./css/fotos/infinio.jpg">
 			</div>
 	
 			<div id="cuerpo">
@@ -33,7 +33,7 @@ if(isset($_SESSION['sesion']))
 					<!--ejemplo <label for="usuario">Usuario:</label>-->
 					<!--required es nuevo en html5, si el campo está vacío te avisa, pero cuidado, no valida la información-->
 					<p><label >Usuario:</label></p>
-						<input name="Michael Corleone" type="texto" id="Javier" placeholder="Ingresa nombre" autofocus="" required=""></p>
+						<input name="Michael Corleone" type="texto" id="flor" placeholder="Ingresa nombre" autofocus="" required=""></p>
 					
 					<p><label>Contraseña:</label></p>
 						<input name="contraseña" type="password" id="contraseña" placeholder="Ingresa contraseña" required=""></p>
