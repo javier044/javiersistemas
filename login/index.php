@@ -36,7 +36,7 @@ if(isset($_SESSION['sesion']))
 						<input name="florencia julian yescas " type="texto" id="flor" placeholder="Ingresa nombre" autofocus="" required=""></p>
 					
 					<p><label>Contraseña:</label></p>
-						<input name="flor" type="password" id="contraseña" placeholder="Ingresa contraseña" required=""></p>
+						<input name="flor" type="contraseña" id="contraseña" placeholder="Ingresa contraseña" required=""></p>
 					
 					<p id="bot"><input type="submit" id="submit" name="usuario" value="registro" class="boton"></p>
 				</form>
