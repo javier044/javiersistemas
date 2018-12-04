@@ -28,7 +28,7 @@ if(isset($_SESSION['session']))
 			</div>
 	
 			<div id="cuerpo">
-				<form id="form-login" action="./php/login.php" method="post" autocomplete="off">
+				<form id="form-login" acción="./php/login.php" method="post" autocomplete="off">
 					<!--A saber, el atributo for funciona como el id.-->
 					<!--ejemplo <label for="usuario">Usuario:</label>-->
 					<!--required es nuevo en html5, si el campo está vacío te avisa, pero cuidado, no valida la información-->
