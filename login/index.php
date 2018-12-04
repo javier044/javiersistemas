@@ -1,6 +1,6 @@
 <?php
 require_once("./php/myDBC.php");
-if(isset($_SESSION['session']))
+if(isset($_SESSION['sesion']))
 {
 	header("location:principal.php");
 	exit;
@@ -9,9 +9,9 @@ if(isset($_SESSION['session']))
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<title>Informatica</title>
+	<title>Sistemas de Información</title>
 	<meta charset="utf-8">
-	<link type="texto/css" href="./css/style.css" rel="stylesheet" />
+	<link type="text/css" href="./css/style.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -24,7 +24,7 @@ if(isset($_SESSION['session']))
 		<div id="contenedor">
 	
 			<div id="cabecera" >
-				<img src="./css/photos/infinio.jpg">
+				<img src="./css/fotos/loquito.jpg">
 			</div>
 	
 			<div id="cuerpo">
@@ -32,13 +32,13 @@ if(isset($_SESSION['session']))
 					<!--A saber, el atributo for funciona como el id.-->
 					<!--ejemplo <label for="usuario">Usuario:</label>-->
 					<!--required es nuevo en html5, si el campo está vacío te avisa, pero cuidado, no valida la información-->
-					<p><label >Usuario:</label></p>
-						<input name="Michael Corleone" type="texto" id="Javier" placeholder="Ingresa nombre" autofocus="" required=""></p>
+					<p><label >:</label></p>
+						<input name="Florencia Julian Yescas" type="texto" id="flor" placeholder="Ingresa nombre" autofocus="" required=""></p>
 					
 					<p><label>Contraseña:</label></p>
-						<input name="contraseña" type="password" id="contraseña" placeholder="Ingresa contraseña" required=""></p>
+						<input name="flor" type="contraseña" id="contraseña" placeholder="Ingresa contraseña" required=""></p>
 					
-					<p id="bot"><input type="submit" id="submit" name="usuario" value="register" class="boton"></p>
+					<p id="bot"><input type="submit" id="submit" name="usuario" value="registro" class="botón"></p>
 				</form>
 			</div><!--fin cuerpo-->
 	
