@@ -11,7 +11,7 @@ if(isset($_SESSION['sesion']))
 <head>
 	<title>Sistemas de Información</title>
 	<meta charset="utf-8">
-	<link type="text/css" href="./css/style.css" rel="stylesheet" />
+	<link type="texto/css" href="./css/style.css" rel="stylesheet" />
 </head>
 
 <body>
